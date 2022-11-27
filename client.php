@@ -22,4 +22,9 @@ echo "<pre>";
 var_dump($savBankaccount);
 echo "</pre>";
 
-$savBankaccount->retrieve_interest();
+echo $savBankaccount->retrieve_interest();
+
+
+$ProfessionalAccount = new ProfessionalAccount('1642587k', '200');
+
+$ProfessionalAccount->Withdraw(700);

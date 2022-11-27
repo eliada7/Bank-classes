@@ -4,7 +4,7 @@ class Bankaccount
 {
 
   private string $accountNumber;
-  private int $amount;
+  public int $amount;
 
   public function __construct($accountNumber, $amount)
   {
